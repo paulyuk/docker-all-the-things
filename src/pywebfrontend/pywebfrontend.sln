@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pywebfrontend", "pywebfrontend\pywebfrontend.csproj", "{B1F760B1-DAEA-4200-9F28-5519BFF3F758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pywebfront.Test", "pywebfront.Test\pywebfront.Test.csproj", "{0419B301-FA95-4616-A24D-9FAB2E64D06B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1F760B1-DAEA-4200-9F28-5519BFF3F758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F760B1-DAEA-4200-9F28-5519BFF3F758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F760B1-DAEA-4200-9F28-5519BFF3F758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F760B1-DAEA-4200-9F28-5519BFF3F758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0419B301-FA95-4616-A24D-9FAB2E64D06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0419B301-FA95-4616-A24D-9FAB2E64D06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0419B301-FA95-4616-A24D-9FAB2E64D06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0419B301-FA95-4616-A24D-9FAB2E64D06B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74C562AF-10EB-488F-8B3E-0D94CC5E3AF7}
+	EndGlobalSection
+EndGlobal
