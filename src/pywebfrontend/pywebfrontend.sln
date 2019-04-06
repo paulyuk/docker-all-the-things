@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pywebfrontend", "pywebfrontend\pywebfrontend.csproj", "{B1F760B1-DAEA-4200-9F28-5519BFF3F758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pywebfront.Test", "pywebfront.Test\pywebfront.Test.csproj", "{0419B301-FA95-4616-A24D-9FAB2E64D06B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pywebfrontend.Test", "pywebfrontend.Test\pywebfrontend.Test.csproj", "{0419B301-FA95-4616-A24D-9FAB2E64D06B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
