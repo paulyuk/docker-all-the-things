@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ template "pywebapi.fullname" . }}
+  labels:
+    app: {{ template "pywebapi.name" . }}
+    chart: {{ template "pywebapi.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: {{ template "pywebapi.name" . }}
+    release: {{ .Release.Name }}
