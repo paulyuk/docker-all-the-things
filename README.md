@@ -1,12 +1,14 @@
 # docker-all-the-things
-This is the "Docker all the things" talk I did as a part of VS 2019 launch.  It walks through a simple single service web app, and expands to unit testing and multiple services in Kubernetes. 
+This is the "Docker all the things" talk I did as a part of VS 2019 launch.  It walks through a simple single service web app, and expands to unit testing and multiple services in Kubernetes. )
+
+The video companion for this code lives here: [https://www.youtube.com/watch?v=_klIzTnUJnY](https://www.youtube.com/watch?v=_klIzTnUJnY)
 
 There are a few key folders and projects included in the \src folder:
-\pywebfrontend  -- ASP.NET Core web front end project w/ Dockerfile and Kubernetes/Helm charts
-\pywebfrontend -- xUnit test console project w/ Dockerfile
+* \pywebfrontend  -- ASP.NET Core web front end project w/ Dockerfile and Kubernetes/Helm charts
+* \pywebfrontend -- xUnit test console project w/ Dockerfile
 \pywebapi -- ASP.NET Core web api project end project w/ Dockerfile and Kubernetes/Helm charts
 
-Each project was created by simply doing a right-click -> Add Docker support, and then right-click -> Add Orchestration = Kubernetes/Helm
+*Each project was created by simply doing a right-click -> Add Docker support, and then right-click -> Add Orchestration = Kubernetes/Helm*
 
 
 There are several modes and environments this can be run in using VS 2019 and Azure
