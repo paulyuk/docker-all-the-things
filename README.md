@@ -6,7 +6,7 @@ The video companion for this code lives here: [https://www.youtube.com/watch?v=_
 There are a few key folders and projects included in the \src folder:
 * \pywebfrontend  -- ASP.NET Core web front end project w/ Dockerfile and Kubernetes/Helm charts
 * \pywebfrontend -- xUnit test console project w/ Dockerfile
-\pywebapi -- ASP.NET Core web api project end project w/ Dockerfile and Kubernetes/Helm charts
+* \pywebapi -- ASP.NET Core web api project end project w/ Dockerfile and Kubernetes/Helm charts
 
 *Each project was created by simply doing a right-click -> Add Docker support, and then right-click -> Add Orchestration = Kubernetes/Helm*
 
