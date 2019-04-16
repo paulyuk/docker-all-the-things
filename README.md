@@ -1,5 +1,5 @@
 # docker-all-the-things
-This is the "Docker all the things" talk I did as a part of VS 2019 launch.  It walks through a simple single service web app, and expands to unit testing and multiple services in Kubernetes. )
+This is the "Docker all the things" talk I did as a part of VS 2019 launch.  It walks through a simple single service web app, and expands to unit testing and multiple services in Kubernetes. 
 
 The video companion for this code lives here: [https://www.youtube.com/watch?v=_klIzTnUJnY](https://www.youtube.com/watch?v=_klIzTnUJnY)
 
